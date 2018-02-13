@@ -1,0 +1,7 @@
+# crypto
+n=input()
+x=len(n)%16
+rem=16-x
+a=hex(rem)
+n=n+"\\"a * rem
+print(n)
