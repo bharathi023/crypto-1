@@ -1,4 +1,4 @@
-# crypto
+# crypto code for sieve of eratosthenes
 n=int(input())
 m=[]
 for i in range (0,n):
